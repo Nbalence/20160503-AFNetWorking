@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5EB93C1CD3598A005D2C7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB93B1CD3598A005D2C7F /* main.m */; };
+		CC5EB93F1CD3598A005D2C7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB93E1CD3598A005D2C7F /* AppDelegate.m */; };
+		CC5EB9421CD3598A005D2C7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB9411CD3598A005D2C7F /* ViewController.m */; };
+		CC5EB9451CD3598A005D2C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5EB9431CD3598A005D2C7F /* Main.storyboard */; };
+		CC5EB9471CD3598A005D2C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5EB9461CD3598A005D2C7F /* Assets.xcassets */; };
+		CC5EB94A1CD3598A005D2C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5EB9481CD3598A005D2C7F /* LaunchScreen.storyboard */; };
+		CC5EB9551CD3598A005D2C7F /* QY____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB9541CD3598A005D2C7F /* QY____Tests.m */; };
+		CC5EB9601CD3598A005D2C7F /* QY____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB95F1CD3598A005D2C7F /* QY____UITests.m */; };
+		CC5EB9731CD35B75005D2C7F /* QYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB9711CD35B75005D2C7F /* QYTableViewCell.m */; };
+		CC5EB9741CD35B75005D2C7F /* QYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5EB9721CD35B75005D2C7F /* QYTableViewCell.xib */; };
+		CC5EB9771CD3807D005D2C7F /* QYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EB9761CD3807D005D2C7F /* QYModel.m */; };
+		CCA672D51CD83213000F6F55 /* QYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA672D41CD83213000F6F55 /* QYVideoViewController.m */; };
+		CCA672D81CD83252000F6F55 /* QYAffairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA672D71CD83252000F6F55 /* QYAffairViewController.m */; };
+		CCA672DC1CD8327B000F6F55 /* QYVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA672DA1CD8327B000F6F55 /* QYVideoTableViewCell.m */; };
+		CCA672DD1CD8327B000F6F55 /* QYVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA672DB1CD8327B000F6F55 /* QYVideoTableViewCell.xib */; };
+		CCA672DF1CD835C2000F6F55 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA672DE1CD835C2000F6F55 /* Unknown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5EB9511CD3598A005D2C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5EB92F1CD3598A005D2C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5EB9361CD3598A005D2C7F;
+			remoteInfo = "QY智慧栾川";
+		};
+		CC5EB95C1CD3598A005D2C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5EB92F1CD3598A005D2C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5EB9361CD3598A005D2C7F;
+			remoteInfo = "QY智慧栾川";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC5EB9371CD3598A005D2C7F /* QY智慧栾川.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QY智慧栾川.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5EB93B1CD3598A005D2C7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC5EB93D1CD3598A005D2C7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC5EB93E1CD3598A005D2C7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC5EB9401CD3598A005D2C7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC5EB9411CD3598A005D2C7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC5EB9441CD3598A005D2C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC5EB9461CD3598A005D2C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC5EB9491CD3598A005D2C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC5EB94B1CD3598A005D2C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5EB9501CD3598A005D2C7F /* QY智慧栾川Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QY智慧栾川Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5EB9541CD3598A005D2C7F /* QY____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QY____Tests.m"; sourceTree = "<group>"; };
+		CC5EB9561CD3598A005D2C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5EB95B1CD3598A005D2C7F /* QY智慧栾川UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QY智慧栾川UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5EB95F1CD3598A005D2C7F /* QY____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QY____UITests.m"; sourceTree = "<group>"; };
+		CC5EB9611CD3598A005D2C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5EB9701CD35B75005D2C7F /* QYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTableViewCell.h; sourceTree = "<group>"; };
+		CC5EB9711CD35B75005D2C7F /* QYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTableViewCell.m; sourceTree = "<group>"; };
+		CC5EB9721CD35B75005D2C7F /* QYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYTableViewCell.xib; sourceTree = "<group>"; };
+		CC5EB9751CD3807D005D2C7F /* QYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYModel.h; sourceTree = "<group>"; };
+		CC5EB9761CD3807D005D2C7F /* QYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYModel.m; sourceTree = "<group>"; };
+		CCA672D31CD83213000F6F55 /* QYVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYVideoViewController.h; sourceTree = "<group>"; };
+		CCA672D41CD83213000F6F55 /* QYVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYVideoViewController.m; sourceTree = "<group>"; };
+		CCA672D61CD83252000F6F55 /* QYAffairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAffairViewController.h; sourceTree = "<group>"; };
+		CCA672D71CD83252000F6F55 /* QYAffairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYAffairViewController.m; sourceTree = "<group>"; };
+		CCA672D91CD8327B000F6F55 /* QYVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYVideoTableViewCell.h; sourceTree = "<group>"; };
+		CCA672DA1CD8327B000F6F55 /* QYVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYVideoTableViewCell.m; sourceTree = "<group>"; };
+		CCA672DB1CD8327B000F6F55 /* QYVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYVideoTableViewCell.xib; sourceTree = "<group>"; };
+		CCA672DE1CD835C2000F6F55 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5EB9341CD3598A005D2C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5EB94D1CD3598A005D2C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5EB9581CD3598A005D2C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5EB92E1CD3598A005D2C7F = {
+			isa = PBXGroup;
+			children = (
+				CC5EB9391CD3598A005D2C7F /* QY智慧栾川 */,
+				CC5EB9531CD3598A005D2C7F /* QY智慧栾川Tests */,
+				CC5EB95E1CD3598A005D2C7F /* QY智慧栾川UITests */,
+				CC5EB9381CD3598A005D2C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5EB9381CD3598A005D2C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB9371CD3598A005D2C7F /* QY智慧栾川.app */,
+				CC5EB9501CD3598A005D2C7F /* QY智慧栾川Tests.xctest */,
+				CC5EB95B1CD3598A005D2C7F /* QY智慧栾川UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5EB9391CD3598A005D2C7F /* QY智慧栾川 */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB96F1CD35AE3005D2C7F /* QYModel */,
+				CC5EB96E1CD35AD5005D2C7F /* QYView */,
+				CC5EB96D1CD35AC1005D2C7F /* QYController */,
+				CC5EB93A1CD3598A005D2C7F /* Supporting Files */,
+			);
+			path = "QY智慧栾川";
+			sourceTree = "<group>";
+		};
+		CC5EB93A1CD3598A005D2C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA672DE1CD835C2000F6F55 /* Unknown.png */,
+				CC5EB93D1CD3598A005D2C7F /* AppDelegate.h */,
+				CC5EB93E1CD3598A005D2C7F /* AppDelegate.m */,
+				CC5EB9461CD3598A005D2C7F /* Assets.xcassets */,
+				CC5EB9481CD3598A005D2C7F /* LaunchScreen.storyboard */,
+				CC5EB94B1CD3598A005D2C7F /* Info.plist */,
+				CC5EB93B1CD3598A005D2C7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC5EB9531CD3598A005D2C7F /* QY智慧栾川Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB9541CD3598A005D2C7F /* QY____Tests.m */,
+				CC5EB9561CD3598A005D2C7F /* Info.plist */,
+			);
+			path = "QY智慧栾川Tests";
+			sourceTree = "<group>";
+		};
+		CC5EB95E1CD3598A005D2C7F /* QY智慧栾川UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB95F1CD3598A005D2C7F /* QY____UITests.m */,
+				CC5EB9611CD3598A005D2C7F /* Info.plist */,
+			);
+			path = "QY智慧栾川UITests";
+			sourceTree = "<group>";
+		};
+		CC5EB96D1CD35AC1005D2C7F /* QYController */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB9401CD3598A005D2C7F /* ViewController.h */,
+				CC5EB9411CD3598A005D2C7F /* ViewController.m */,
+				CCA672D31CD83213000F6F55 /* QYVideoViewController.h */,
+				CCA672D41CD83213000F6F55 /* QYVideoViewController.m */,
+				CCA672D61CD83252000F6F55 /* QYAffairViewController.h */,
+				CCA672D71CD83252000F6F55 /* QYAffairViewController.m */,
+			);
+			name = QYController;
+			sourceTree = "<group>";
+		};
+		CC5EB96E1CD35AD5005D2C7F /* QYView */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB9431CD3598A005D2C7F /* Main.storyboard */,
+				CC5EB9701CD35B75005D2C7F /* QYTableViewCell.h */,
+				CC5EB9711CD35B75005D2C7F /* QYTableViewCell.m */,
+				CC5EB9721CD35B75005D2C7F /* QYTableViewCell.xib */,
+				CCA672D91CD8327B000F6F55 /* QYVideoTableViewCell.h */,
+				CCA672DA1CD8327B000F6F55 /* QYVideoTableViewCell.m */,
+				CCA672DB1CD8327B000F6F55 /* QYVideoTableViewCell.xib */,
+			);
+			name = QYView;
+			sourceTree = "<group>";
+		};
+		CC5EB96F1CD35AE3005D2C7F /* QYModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC5EB9751CD3807D005D2C7F /* QYModel.h */,
+				CC5EB9761CD3807D005D2C7F /* QYModel.m */,
+			);
+			name = QYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5EB9361CD3598A005D2C7F /* QY智慧栾川 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5EB9641CD3598A005D2C7F /* Build configuration list for PBXNativeTarget "QY智慧栾川" */;
+			buildPhases = (
+				CC5EB9331CD3598A005D2C7F /* Sources */,
+				CC5EB9341CD3598A005D2C7F /* Frameworks */,
+				CC5EB9351CD3598A005D2C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QY智慧栾川";
+			productName = "QY智慧栾川";
+			productReference = CC5EB9371CD3598A005D2C7F /* QY智慧栾川.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC5EB94F1CD3598A005D2C7F /* QY智慧栾川Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5EB9671CD3598A005D2C7F /* Build configuration list for PBXNativeTarget "QY智慧栾川Tests" */;
+			buildPhases = (
+				CC5EB94C1CD3598A005D2C7F /* Sources */,
+				CC5EB94D1CD3598A005D2C7F /* Frameworks */,
+				CC5EB94E1CD3598A005D2C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5EB9521CD3598A005D2C7F /* PBXTargetDependency */,
+			);
+			name = "QY智慧栾川Tests";
+			productName = "QY智慧栾川Tests";
+			productReference = CC5EB9501CD3598A005D2C7F /* QY智慧栾川Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC5EB95A1CD3598A005D2C7F /* QY智慧栾川UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5EB96A1CD3598A005D2C7F /* Build configuration list for PBXNativeTarget "QY智慧栾川UITests" */;
+			buildPhases = (
+				CC5EB9571CD3598A005D2C7F /* Sources */,
+				CC5EB9581CD3598A005D2C7F /* Frameworks */,
+				CC5EB9591CD3598A005D2C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5EB95D1CD3598A005D2C7F /* PBXTargetDependency */,
+			);
+			name = "QY智慧栾川UITests";
+			productName = "QY智慧栾川UITests";
+			productReference = CC5EB95B1CD3598A005D2C7F /* QY智慧栾川UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5EB92F1CD3598A005D2C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC5EB9361CD3598A005D2C7F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CC5EB94F1CD3598A005D2C7F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC5EB9361CD3598A005D2C7F;
+					};
+					CC5EB95A1CD3598A005D2C7F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CC5EB9361CD3598A005D2C7F;
+					};
+				};
+			};
+			buildConfigurationList = CC5EB9321CD3598A005D2C7F /* Build configuration list for PBXProject "QY智慧栾川" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5EB92E1CD3598A005D2C7F;
+			productRefGroup = CC5EB9381CD3598A005D2C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5EB9361CD3598A005D2C7F /* QY智慧栾川 */,
+				CC5EB94F1CD3598A005D2C7F /* QY智慧栾川Tests */,
+				CC5EB95A1CD3598A005D2C7F /* QY智慧栾川UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5EB9351CD3598A005D2C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5EB94A1CD3598A005D2C7F /* LaunchScreen.storyboard in Resources */,
+				CCA672DD1CD8327B000F6F55 /* QYVideoTableViewCell.xib in Resources */,
+				CCA672DF1CD835C2000F6F55 /* Unknown.png in Resources */,
+				CC5EB9741CD35B75005D2C7F /* QYTableViewCell.xib in Resources */,
+				CC5EB9471CD3598A005D2C7F /* Assets.xcassets in Resources */,
+				CC5EB9451CD3598A005D2C7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5EB94E1CD3598A005D2C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5EB9591CD3598A005D2C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5EB9331CD3598A005D2C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA672D51CD83213000F6F55 /* QYVideoViewController.m in Sources */,
+				CC5EB9421CD3598A005D2C7F /* ViewController.m in Sources */,
+				CC5EB9731CD35B75005D2C7F /* QYTableViewCell.m in Sources */,
+				CCA672D81CD83252000F6F55 /* QYAffairViewController.m in Sources */,
+				CC5EB93F1CD3598A005D2C7F /* AppDelegate.m in Sources */,
+				CCA672DC1CD8327B000F6F55 /* QYVideoTableViewCell.m in Sources */,
+				CC5EB93C1CD3598A005D2C7F /* main.m in Sources */,
+				CC5EB9771CD3807D005D2C7F /* QYModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5EB94C1CD3598A005D2C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5EB9551CD3598A005D2C7F /* QY____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5EB9571CD3598A005D2C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5EB9601CD3598A005D2C7F /* QY____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5EB9521CD3598A005D2C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5EB9361CD3598A005D2C7F /* QY智慧栾川 */;
+			targetProxy = CC5EB9511CD3598A005D2C7F /* PBXContainerItemProxy */;
+		};
+		CC5EB95D1CD3598A005D2C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5EB9361CD3598A005D2C7F /* QY智慧栾川 */;
+			targetProxy = CC5EB95C1CD3598A005D2C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC5EB9431CD3598A005D2C7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5EB9441CD3598A005D2C7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC5EB9481CD3598A005D2C7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5EB9491CD3598A005D2C7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5EB9621CD3598A005D2C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC5EB9631CD3598A005D2C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5EB9651CD3598A005D2C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QY智慧栾川/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingyun.QY----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC5EB9661CD3598A005D2C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QY智慧栾川/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingyun.QY----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC5EB9681CD3598A005D2C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QY智慧栾川Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingyun.QY----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QY智慧栾川.app/QY智慧栾川";
+			};
+			name = Debug;
+		};
+		CC5EB9691CD3598A005D2C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QY智慧栾川Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingyun.QY----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QY智慧栾川.app/QY智慧栾川";
+			};
+			name = Release;
+		};
+		CC5EB96B1CD3598A005D2C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QY智慧栾川UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingyun.QY----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QY智慧栾川";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC5EB96C1CD3598A005D2C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QY智慧栾川UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yingyun.QY----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QY智慧栾川";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5EB9321CD3598A005D2C7F /* Build configuration list for PBXProject "QY智慧栾川" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5EB9621CD3598A005D2C7F /* Debug */,
+				CC5EB9631CD3598A005D2C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5EB9641CD3598A005D2C7F /* Build configuration list for PBXNativeTarget "QY智慧栾川" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5EB9651CD3598A005D2C7F /* Debug */,
+				CC5EB9661CD3598A005D2C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5EB9671CD3598A005D2C7F /* Build configuration list for PBXNativeTarget "QY智慧栾川Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5EB9681CD3598A005D2C7F /* Debug */,
+				CC5EB9691CD3598A005D2C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5EB96A1CD3598A005D2C7F /* Build configuration list for PBXNativeTarget "QY智慧栾川UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5EB96B1CD3598A005D2C7F /* Debug */,
+				CC5EB96C1CD3598A005D2C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5EB92F1CD3598A005D2C7F /* Project object */;
+}
